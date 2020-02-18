@@ -1,0 +1,27 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello welcome to Stat'Admin Page COWLOC.Fr!
+{% endblock %}
+
+{% block body %}
+
+	{% include 'navbar.html.twig' %}
+	<div class="container">
+		<div class="row justify-content-center m-5">
+			<div class="col-4">
+				<img class="img-fluid" src="../img/logo.png" alt="Logo">
+			</div>
+		</div>
+		<div class="jumbotron">
+			<h1 class="display-3">Hello, Cowloc !</h1>
+			<p class="lead">This is a small unit service for statistic analysis.</p>
+			<hr class="my-4">
+			<p>Only authorized members.</p>
+			<p class="lead text-right">
+				<a class="btn btn-primary btn-lg" href="#" role="button">Let's Connect !</a>
+			</p>
+		</div>
+	</div>
+
+
+{% endblock %}
